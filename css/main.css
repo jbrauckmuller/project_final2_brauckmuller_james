@@ -158,3 +158,51 @@ a:visited {
 p:last-of-type {
     margin-bottom: 30px;
 }
+
+@media (min-width: 750px) {
+
+    .header {
+        width: 25%;
+        float: left;
+        padding: 5% 5% 0 5%;
+    }
+
+    .typography {
+        float: right;
+        width: 50%;
+        margin: 5% 5% 0 0;
+    }
+
+    .palette {
+        width: 30%;
+    }
+
+    .palette li {
+        margin: 6% 0 0 0;
+        width: 83%;
+    }
+
+    .palette li:last-child {
+        margin: 6% 0 0 0;
+    }
+
+    .images {
+        padding-top: 0;
+    }
+
+    .left {
+        width: 24%;
+
+    }
+
+    .right {
+        width: 24%;
+        margin: 0;
+    }
+
+    .across {
+        padding-top: 0;
+        width: 48%;
+        margin-left: 1%;
+    }
+}
