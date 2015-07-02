@@ -212,3 +212,62 @@ p:last-of-type {
         width: 10em;
     }
 }
+
+@media (min-width: 1250px) {
+    .typography {
+        float: left;
+        width: 20%;
+        clear: none;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+
+    .header {
+        float: none;
+        padding-top: 0;
+        width: auto;
+    }
+
+    .header img {
+        width: 60%;
+    }
+
+    .palette {
+        width: auto;
+        padding: 0 5%;
+    }
+
+    .palette li {
+        width: 18.5%;
+        margin: 0 2% 0 0;
+        line-height: 7em;
+    }
+
+    .palette li:last-child {
+        margin: 0;
+    }
+
+    .images {
+        padding-top: 5%;
+        padding-bottom: 13%;
+    }
+
+    .across {
+        width: 28%;
+        margin-left: 2%;
+    }
+
+    .left {
+        width: 14%;
+        margin-right: 2%;
+    }
+
+    .right {
+        width: 14%;
+    }
+
+    .logo {
+        width: 20%;
+        margin: auto;
+    }
+}
