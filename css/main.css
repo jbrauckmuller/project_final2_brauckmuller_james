@@ -9,3 +9,25 @@
     border: 0;
     margin: 0;
 }
+
+h1, h2 {
+    font-family: 'Noticia';
+    font-weight: lighter;
+}
+
+ h3, h4, h5, h6  {
+    font-family: 'Open Sans';
+    font-weight: 600;
+ }
+
+ p {
+    padding: 10px 0;
+    font-family: 'Open Sans';
+    font-size: .9em;
+ }
+
+a {
+    text-decoration: none;
+    color: #5d865a;
+    font-weight: bold;
+}
