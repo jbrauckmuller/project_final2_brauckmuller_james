@@ -68,3 +68,12 @@ footer {
 .palette {
     padding: 5%;
 }
+
+a:hover {
+    color: #356831;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #356831;
+}
