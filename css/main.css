@@ -206,3 +206,9 @@ p:last-of-type {
         margin-left: 1%;
     }
 }
+
+@media (min-width: 1000px) {
+    .header img {
+        width: 10em;
+    }
+}
