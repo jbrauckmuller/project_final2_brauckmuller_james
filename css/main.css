@@ -31,3 +31,20 @@ a {
     color: #5d865a;
     font-weight: bold;
 }
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: gray;
+    border-top: 1px solid #d1d3d4;
+}
