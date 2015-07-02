@@ -77,3 +77,84 @@ a:hover {
 a:visited {
     color: #356831;
 }
+
+
+.palette li {
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    line-height: 4em;
+}
+
+.palette li:last-child {
+    margin: 0;
+}
+
+.primary {
+    background-color: #5d865a;
+}
+
+.primary:hover {
+    background-color: #356831;
+}
+
+.accent {
+    background-color: #e8d5b6;
+}
+
+.accent:hover {
+    background-color: #b47015;
+}
+
+.grey {
+    background-color: #e6e6e6;
+    border: 1px solid white;
+}
+
+.grey:hover {
+    background-color: #d1d3d4;
+}
+
+.images {
+    padding: 5%;
+}
+
+.images img {
+    width: 100%;
+}
+
+.left {
+    width: 48%;
+    margin-right: 1%;
+}
+
+.right {
+    width: 48%;
+    margin-left: 1%;
+}
+
+.across {
+    padding-top: 2%;
+}
+
+.button {
+    border-radius: 3px;
+    padding: 10px 20px;
+    background-color: #5d865a;
+    font-family: 'Open Sans';
+    color: #ffffff
+}
+
+.button:hover {
+    background-color: #356831;
+}
+
+.button:hover, .button:visited {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+p:last-of-type {
+    margin-bottom: 30px;
+}
